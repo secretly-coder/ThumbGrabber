@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThumbGrabber | PWA</title>
+    <meta name="description" content="Download YouTube Thumbnails in all qualities.">
+    <meta name="theme-color" content="#ff0033">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="manifest" href="manifest.json">
+    
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Thumb<span>Grabber</span></h1>
+            <p>Paste a YouTube URL to get started</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="urlInput" placeholder="https://www.youtube.com/watch?v=..." autocomplete="off">
+            <button id="getBtn">Get Thumbnails</button>
+        </div>
+
+        <div id="error-msg" class="hidden">Invalid YouTube URL</div>
+
+        <div id="results" class="results-grid hidden">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
