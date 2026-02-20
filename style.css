@@ -81,6 +81,27 @@ button:hover {
     background: #cc0029;
 }
 
+
+.video-info {
+    margin: 0 0 16px;
+    padding: 18px;
+    border: 1px solid #2f2f2f;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+}
+
+.video-info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.video-info p {
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
 /* Error Message */
 #error-msg {
     color: #ff4444;
